@@ -20,8 +20,8 @@ import os
 
 API_ID       = int(os.environ.get("API_ID", "21938068"))
 API_HASH     = os.environ.get("API_HASH", "c18fd98f3e58484df0aecd95a3d5a6a9")
-BOT_TOKEN    = os.environ.get("BOT_TOKEN", "BQFOv5QATBQj9Bn7HHqZ_m7JmYE4HcMRohsbPpJfGMcn0P4ZPEDdY1mM1dVI3J39-VFX6v65nBhsREtUrM6cCUxht8qJczjsXiYKpXIEDbPYW6q74FldqDBTNVUOx-b8O5CEbThTpaaHnh1OoOjoWq5jN8dQpjgQrF05JguEzRpPceSSKvKMW_DDFKaTu42GNmg0IBCjaATwxaEqQ1Rcmu7vDVGb8vxIKFh23AI_wLzVfRaKvkn6HxRVJR0ZpR-l5o1APv_XZUYmN8hRhCq6YmAN1GjeF5apsjfzdlHoCuambXfEl00FSpVpvlwcPEfjlT6tROSPhmuiFllA_qI_KTMZ_qaG_gAAAAGBujeNAQ")
-SESSION      = os.environ.get("SESSION", "Y6XJlFjg9WmeY7LGQ7eQAAAAFY9mSPAA")
+BOT_TOKEN    = os.environ.get("BOT_TOKEN", "6471432077:AAHhFOnRuhUTuBy3gnNbLE11DZ_aEl00llU")
+SESSION      = os.environ.get("SESSION", "BQFOv5QAWPlIUyFD5u5-haj_rUat7TGNU-lp5iv8wF1CCq7gPaibzW7PgYxUqkUBAlnyGtBTz6gOuPqtwGmHeJzWHH_rzco4ZdPDKCcUtXs5MTKC3yfvwJZ5cWlbg_WmMHYlaTXuq4-CgWM7gVE1kq0_P730J1wKZJCgyH-K3HEOzQkB1yVn6uJhGPydO8FxL8yNNBaU157jtV0qWvpe47-95mZk9sHdSGxnpjqzpAVEjFw7yCs1xthbNiKMkrcutbCiNps4jvb9sRpwNjd1vxao6PMExxHTcQYmZn50G_AhBFVqZD2IzGIFO6PMizxc5kjmEMrtKgwBugH_-dO6xVX7tt0nAAAAAAFY9mSPAA")
 TIME         = int(os.environ.get("TIME", 3600))
 CHATS        = [int(cht) for cht in os.environ.get("CHATS", "-1001920976113").split()]
 WHITE_LIST   = [int(wht) for wht in os.environ.get("WHITE_LIST", "").split()]
