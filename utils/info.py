@@ -23,7 +23,7 @@ API_HASH     = os.environ.get("API_HASH", "c18fd98f3e58484df0aecd95a3d5a6a9")
 BOT_TOKEN    = os.environ.get("BOT_TOKEN", "6471432077:AAHhFOnRuhUTuBy3gnNbLE11DZ_aEl00llU")
 SESSION      = os.environ.get("SESSION", "BQFOv5QAWPlIUyFD5u5-haj_rUat7TGNU-lp5iv8wF1CCq7gPaibzW7PgYxUqkUBAlnyGtBTz6gOuPqtwGmHeJzWHH_rzco4ZdPDKCcUtXs5MTKC3yfvwJZ5cWlbg_WmMHYlaTXuq4-CgWM7gVE1kq0_P730J1wKZJCgyH-K3HEOzQkB1yVn6uJhGPydO8FxL8yNNBaU157jtV0qWvpe47-95mZk9sHdSGxnpjqzpAVEjFw7yCs1xthbNiKMkrcutbCiNps4jvb9sRpwNjd1vxao6PMExxHTcQYmZn50G_AhBFVqZD2IzGIFO6PMizxc5kjmEMrtKgwBugH_-dO6xVX7tt0nAAAAAAFY9mSPAA")
 TIME         = int(os.environ.get("TIME", 3600))
-CHATS        = [int(cht) for cht in os.environ.get("CHATS", "-1001920976113").split()]
+CHATS        = [int(cht) for cht in os.environ.get("CHATS", "-1001920976113 -1001929049930 -1001971491129").split()]
 WHITE_LIST   = [int(wht) for wht in os.environ.get("WHITE_LIST", "").split()]
 BLACK_LIST   = [int(blk) for blk in os.environ.get("BLACK_LIST", "").split()]
 DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://Autodeletebot:yuvraj178@autodeletebot.khceugr.mongodb.net/?retryWrites=true&w=majority")
