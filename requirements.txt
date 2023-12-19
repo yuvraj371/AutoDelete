@@ -1,6 +1,7 @@
-pyrogram
+pyrogram>=1.4.12,<2.0
 tgcrypto
 requests
-gunicorn
+gunicorn==20.1.0  # Specify a version for consistency
 pymongo[srv]
 flask[async]
+aiohttp  # Assuming this is the correct library
